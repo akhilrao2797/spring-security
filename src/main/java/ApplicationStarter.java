@@ -3,7 +3,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(value = "com.akhil.spring.oauth.controller")
+@ComponentScan(value = "com.akhil.spring.oauth")
 public class ApplicationStarter {
     public static void main(String ...args){
         SpringApplication.run(ApplicationStarter.class, args);
